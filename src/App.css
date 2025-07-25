@@ -1,0 +1,36 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* 黒をメインに、控えめな金のアクセント */
+  background: linear-gradient(
+    -45deg,
+    #000000,      /* 黒メイン */
+    #1a1a1a,      /* 濃いグレー */
+    #3a2e0f,      /* ダークブラウン（金の陰影のように） */
+    #000000,
+    #3a2e0f
+  );
+  background-size: 300% 300%;
+  animation: gradientBG 25s ease infinite;
+
+  color: #d4af37;  /* 上品なゴールド文字色 */
+  text-align: center;
+  font-family: 'Georgia', serif;
+  text-shadow: 0 0 6px #b89121; /* ほのかな金色の光 */
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ha/static/css/main.97d1d7fe.css",
+    "main.js": "/ha/static/js/main.1e2785ba.js",
+    "static/js/453.10c45e4f.chunk.js": "/ha/static/js/453.10c45e4f.chunk.js",
+    "static/media/メンズコーチ.jpg": "/ha/static/media/メンズコーチ.6ba3ed3ff12ccdfb9fca.jpg",
+    "index.html": "/ha/index.html",
+    "main.97d1d7fe.css.map": "/ha/static/css/main.97d1d7fe.css.map",
+    "main.1e2785ba.js.map": "/ha/static/js/main.1e2785ba.js.map",
+    "453.10c45e4f.chunk.js.map": "/ha/static/js/453.10c45e4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97d1d7fe.css",
+    "static/js/main.1e2785ba.js"
+  ]
+}
